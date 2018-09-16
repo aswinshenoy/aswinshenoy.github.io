@@ -14,6 +14,7 @@
   top: 0;
   left: auto;
   bottom: 0;
+  padding-bottom: 20vh;
   animation: colorchange 15s infinite;
   animation-delay: 0;
   animation-timing-function: ease-in;

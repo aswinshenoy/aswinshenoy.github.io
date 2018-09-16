@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,900");
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+
+#title-section
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: auto;
+  bottom: 0;
+  animation: colorchange 15s infinite;
+  animation-delay: 0;
+  animation-timing-function: ease-in;
+  -webkit-animation: colorchange 15s infinite;
+  color: white;
+}
+
+#profile-pic
+{
+  width:  calc(64px + 9vw);
+  border: 0.5rem solid #fff;
+  border-radius: 15rem;
+  -webkit-box-shadow: 0.2rem 0.3rem 0.8rem 0.3rem rgba(0,0,0,0.3);
+  -moz-box-shadow: 0.2rem 0.3rem 0.8rem 0.3rem rgba(0,0,0,0.3);
+  box-shadow: 0.2rem 0.3rem 0.8rem 0.3rem rgba(0,0,0,0.3);
+}
+
+#profile-icons
+{
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+#profile-icons a
+{
+    text-decoration: none;
+    font-size: calc(0.8rem + 1vw);
+    background: white;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    margin: 0.3rem;
+}
+
+#profile-icons a:hover
+{
+    background: transparent;
+    color: white!important;
+    font-size: calc(1rem + 1.1vw);
+}
+
+body
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 1rem;
+}
+
+h1
+{
+  font-size: calc(2rem + 2.5vw);
+  font-weight: 900;
+}
+
+h6
+{
+  font-size: calc(0.8rem + 1.2vw);
+  font-weight: 600;
+  line-height: 110%;
+}
+
+
+@keyframes colorchange
+{
+  0%   {background: #667db6;}
+  50%  {background: #0082c8;}
+  100%  {background: #667db6;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: #667db6;}
+  50%  {background: #0082c8;}
+  100%  {background: #667db6;}
+}

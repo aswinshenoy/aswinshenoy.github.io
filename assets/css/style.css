@@ -34,8 +34,9 @@
 #profile-icons
 {
   position: absolute;
-  bottom: 0.5rem;
-  right: 0.5rem;
+  bottom: 0rem;
+  right: 0rem;
+  padding: 0.5rem;
 }
 
 #profile-icons a

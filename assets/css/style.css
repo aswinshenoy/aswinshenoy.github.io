@@ -15,10 +15,6 @@
   left: auto;
   bottom: 0;
   padding-bottom: 20vh;
-  animation: colorchange 15s infinite;
-  animation-delay: 0;
-  animation-timing-function: ease-in;
-  -webkit-animation: colorchange 15s infinite;
   color: white;
 }
 
@@ -37,7 +33,7 @@
   position: absolute;
   bottom: 0rem;
   right: 0rem;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
   text-align: center;
 }
 
@@ -67,10 +63,36 @@
     padding: 0.4rem;
 }
 
+.button
+{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 0.1rem solid white;
+    padding: 0.5rem 1rem;
+    font-size: calc(0.7rem + 0.7vw);
+    border-radius: 1.8rem;
+    margin-top: 1rem;
+    transition: 0.5s;
+    font-weight: 800;
+}
+
+.button:hover
+{
+    background-color: white;
+    color: #667db6;
+}
+
 body
 {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
+  max-height: 100vh;
+  animation: colorchange 15s infinite;
+  animation-delay: 0;
+  animation-timing-function: ease-in;
+  -webkit-animation: colorchange 15s infinite;
+
 }
 
 h1, h2, h3, h4, h5, h6
